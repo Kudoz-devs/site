@@ -3,10 +3,9 @@
   <script>
     setTimeout(function() {
   document.querySelectorAll('img').forEach(function(img) {
-    img.src = 'https://kudoz-devs.github.io/site'+img.src;
-    console.log(img.src);
+    img.src = img.src.replace('https://kudoz-devs.github.io','https://kudoz-devs.github.io/site');
   });
-}, 7000);
+}, 5000);
   
 </script>
   
